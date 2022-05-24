@@ -15,7 +15,6 @@ spec:
     volumeMounts:
     - name: app-storage
       mountPath: /storage
-      type: HostPath
   volumes:
   - name: app-storage
     hostPath:
