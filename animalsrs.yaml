@@ -10,11 +10,11 @@ spec:
   selector: 
     matchLabels:
       tier: frontend
-   template:  
-    metadata:
-      labels:
-        tier: frontend
-    spec:
-      containers:
-      - name: app1
-        image: supergiantkir/animals:bear
+    template:  
+      metadata:
+        labels:
+          tier: frontend
+      spec:
+        containers:
+        - name: app1
+          image: supergiantkir/animals:bear
