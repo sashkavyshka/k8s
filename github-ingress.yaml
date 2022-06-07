@@ -12,4 +12,6 @@ spec:
           service:
             name: moose-svc
             port:
-              number: 80     
+              number: 80   
+         path: /
+           pathType: Prefix
