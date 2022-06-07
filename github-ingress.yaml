@@ -10,7 +10,7 @@ spec:
       paths:
       - backend:
           service:
-            name: bear-svc
+            name: moose-svc
             port:
               number: 80
         path: /
