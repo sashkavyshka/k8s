@@ -8,7 +8,7 @@ spec:
   - host: "moose.52.208.193.80.nip.io"
     http:
       paths:
-        - backend:
+      - backend:
           service:
             name: moose-svc
             port:
