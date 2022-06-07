@@ -9,14 +9,14 @@ spec:
   rules:
   - http:
       paths:
-      - path: /moose.jpg
+      - path: /moose(/|$)(.*)
         pathType: Prefix
         backend:
           service:
             name: moose-svc
             port:
               number: 80
-      - path: /bear(/|$).(*)
+      - path: /bear(/|$)(.*)
         pathType: Prefix
         backend:
           service:
