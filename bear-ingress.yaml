@@ -4,13 +4,14 @@ metadata:
   name: animal-ingress
 spec:
   ingressClassName: nginx
-  rules: 
+  rules:
   - http:
       paths:
-      - path: /
-        pathType: Prefix      
-      backend:
+      - backend:
           service:
             name: bear-svc
             port:
               number: 80
+        path: /
+        pathType: Prefix
+
