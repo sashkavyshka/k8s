@@ -5,12 +5,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: "52.208.193.80"
+  - host: "moose.52.208.193.80.nip.io"
     http:
       paths:
-      - path: /
-        pathType: Exact
-        backend:
+        - backend:
           service:
             name: moose-svc
             port:
