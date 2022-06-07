@@ -4,8 +4,7 @@ metadata:
   name: animal-ingress
 spec:
   ingressClassName: nginx
-  rules:
-  - host: bear.52.208.193.80.nip.io  
+  rules: 
     http:
       paths:
       - backend:
